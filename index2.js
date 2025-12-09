@@ -1,4 +1,4 @@
-/*const express = require('express');
+const express = require('express');
 const app = express();
 const port = 3000;
 // ตั้งค่าให้ Express เสิร์ฟไฟล์ static จากโฟลเดอร์ public
@@ -12,9 +12,9 @@ res.send('<link rel="stylesheet" href="/css/style.css"> <h1>Hello, world!</h1><i
 
 app.listen(port, () => {
     console.log(`Server เปิดที่ http://localhost:${port}`);
-});*/
+});
 
-const express = require('express');
+/*const express = require('express');
 const app = express();
 app.use(express.json()); //ต้องมีสำหรับตอบกลับแบบ JSON
 app.post('/message', (req, res) => {
@@ -28,4 +28,4 @@ res.status(500).json({ error: 'ส่งไม่สำเร็จ', details: e
 });
 app.listen(3000, () => {
 console.log('Server is running on port 3000');
-});
+});*/
